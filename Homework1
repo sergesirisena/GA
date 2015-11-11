@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ACME Corp - Home</title>
+    <style>
+    body {
+      margin: 0;
+    background-image: url(images/bgtexture.png);
+    background-size: 200px 200px;
+}
+
+  }
+    p {
+      font-family: lucida grande;
+
+    }
+    ul {
+      list-style: none;
+      display: inline;
+      padding-top: 10px;
+
+    }
+
+    header {
+
+      background-color: #bcbcbc;
+      margin top: 0;
+      box-shadow: 1px;
+    }
+
+    ul {
+      float: right;
+    }
+    section {
+      top: 50px;
+      box-shadow: 0px 1px 10px 1px black;
+      border-radius: 10px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      max-width: 600px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #d3d3d3;
+      background-color: white;
+      padding: 20px 20px;
+    }
+
+    footer {
+      max-width: 600px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: #999999;
+      font-size: small;
+    }
+
+    h2 {
+      background-color: #000;
+      border-top: solid 1px #999;
+      border-left: none;
+      height:0px;
+}
+
+header li {
+display: inline;
+color: white;
+padding: 20px;
+padding-bottom: 40px;
+
+
+}
+.button {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial;
+    text-shadow: 1px 1px black;
+    background-color: rgb(44,79,176);
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 2em;
+    width: 5.4em;
+    cursor: pointer; cursor: hand;
+    margin-right: 30px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Arial;
+  text-shadow: 1px 1px black;
+  position:relative;
+  right:40px;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="images/acmelogo.jpg" alt="" />
+      <ul>
+        <li><a href="">Products</a></li>
+        <li><button class="button">Sign Up</button></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Welcome to ACME Corp!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <h2></h2>
+      Copyright, 2015
+    </footer>
+</body>
+
+</html>
